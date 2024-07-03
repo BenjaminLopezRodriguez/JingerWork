@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		265DD42B2C359AC20043E669 /* JingerWorkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265DD42A2C359AC20043E669 /* JingerWorkApp.swift */; };
+		265DD42D2C359AC20043E669 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265DD42C2C359AC20043E669 /* ContentView.swift */; };
+		265DD42F2C359AC20043E669 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265DD42E2C359AC20043E669 /* Item.swift */; };
+		265DD4312C359AC40043E669 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 265DD4302C359AC40043E669 /* Assets.xcassets */; };
+		265DD4342C359AC40043E669 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 265DD4332C359AC40043E669 /* Preview Assets.xcassets */; };
+		265DD43F2C359AC40043E669 /* JingerWorkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265DD43E2C359AC40043E669 /* JingerWorkTests.swift */; };
+		265DD4492C359AC40043E669 /* JingerWorkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265DD4482C359AC40043E669 /* JingerWorkUITests.swift */; };
+		265DD44B2C359AC40043E669 /* JingerWorkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265DD44A2C359AC40043E669 /* JingerWorkUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		265DD43B2C359AC40043E669 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 265DD41F2C359AC20043E669 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 265DD4262C359AC20043E669;
+			remoteInfo = JingerWork;
+		};
+		265DD4452C359AC40043E669 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 265DD41F2C359AC20043E669 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 265DD4262C359AC20043E669;
+			remoteInfo = JingerWork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		265DD4272C359AC20043E669 /* JingerWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JingerWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		265DD42A2C359AC20043E669 /* JingerWorkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JingerWorkApp.swift; sourceTree = "<group>"; };
+		265DD42C2C359AC20043E669 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		265DD42E2C359AC20043E669 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		265DD4302C359AC40043E669 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		265DD4332C359AC40043E669 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		265DD4352C359AC40043E669 /* JingerWork.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JingerWork.entitlements; sourceTree = "<group>"; };
+		265DD43A2C359AC40043E669 /* JingerWorkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JingerWorkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		265DD43E2C359AC40043E669 /* JingerWorkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JingerWorkTests.swift; sourceTree = "<group>"; };
+		265DD4442C359AC40043E669 /* JingerWorkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JingerWorkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		265DD4482C359AC40043E669 /* JingerWorkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JingerWorkUITests.swift; sourceTree = "<group>"; };
+		265DD44A2C359AC40043E669 /* JingerWorkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JingerWorkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		265DD4242C359AC20043E669 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		265DD4372C359AC40043E669 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		265DD4412C359AC40043E669 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		265DD41E2C359AC20043E669 = {
+			isa = PBXGroup;
+			children = (
+				265DD4292C359AC20043E669 /* JingerWork */,
+				265DD43D2C359AC40043E669 /* JingerWorkTests */,
+				265DD4472C359AC40043E669 /* JingerWorkUITests */,
+				265DD4282C359AC20043E669 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		265DD4282C359AC20043E669 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				265DD4272C359AC20043E669 /* JingerWork.app */,
+				265DD43A2C359AC40043E669 /* JingerWorkTests.xctest */,
+				265DD4442C359AC40043E669 /* JingerWorkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		265DD4292C359AC20043E669 /* JingerWork */ = {
+			isa = PBXGroup;
+			children = (
+				265DD42A2C359AC20043E669 /* JingerWorkApp.swift */,
+				265DD42C2C359AC20043E669 /* ContentView.swift */,
+				265DD42E2C359AC20043E669 /* Item.swift */,
+				265DD4302C359AC40043E669 /* Assets.xcassets */,
+				265DD4352C359AC40043E669 /* JingerWork.entitlements */,
+				265DD4322C359AC40043E669 /* Preview Content */,
+			);
+			path = JingerWork;
+			sourceTree = "<group>";
+		};
+		265DD4322C359AC40043E669 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				265DD4332C359AC40043E669 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		265DD43D2C359AC40043E669 /* JingerWorkTests */ = {
+			isa = PBXGroup;
+			children = (
+				265DD43E2C359AC40043E669 /* JingerWorkTests.swift */,
+			);
+			path = JingerWorkTests;
+			sourceTree = "<group>";
+		};
+		265DD4472C359AC40043E669 /* JingerWorkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				265DD4482C359AC40043E669 /* JingerWorkUITests.swift */,
+				265DD44A2C359AC40043E669 /* JingerWorkUITestsLaunchTests.swift */,
+			);
+			path = JingerWorkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		265DD4262C359AC20043E669 /* JingerWork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 265DD44E2C359AC40043E669 /* Build configuration list for PBXNativeTarget "JingerWork" */;
+			buildPhases = (
+				265DD4232C359AC20043E669 /* Sources */,
+				265DD4242C359AC20043E669 /* Frameworks */,
+				265DD4252C359AC20043E669 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JingerWork;
+			productName = JingerWork;
+			productReference = 265DD4272C359AC20043E669 /* JingerWork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		265DD4392C359AC40043E669 /* JingerWorkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 265DD4512C359AC40043E669 /* Build configuration list for PBXNativeTarget "JingerWorkTests" */;
+			buildPhases = (
+				265DD4362C359AC40043E669 /* Sources */,
+				265DD4372C359AC40043E669 /* Frameworks */,
+				265DD4382C359AC40043E669 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				265DD43C2C359AC40043E669 /* PBXTargetDependency */,
+			);
+			name = JingerWorkTests;
+			productName = JingerWorkTests;
+			productReference = 265DD43A2C359AC40043E669 /* JingerWorkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		265DD4432C359AC40043E669 /* JingerWorkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 265DD4542C359AC40043E669 /* Build configuration list for PBXNativeTarget "JingerWorkUITests" */;
+			buildPhases = (
+				265DD4402C359AC40043E669 /* Sources */,
+				265DD4412C359AC40043E669 /* Frameworks */,
+				265DD4422C359AC40043E669 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				265DD4462C359AC40043E669 /* PBXTargetDependency */,
+			);
+			name = JingerWorkUITests;
+			productName = JingerWorkUITests;
+			productReference = 265DD4442C359AC40043E669 /* JingerWorkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		265DD41F2C359AC20043E669 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					265DD4262C359AC20043E669 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					265DD4392C359AC40043E669 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 265DD4262C359AC20043E669;
+					};
+					265DD4432C359AC40043E669 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 265DD4262C359AC20043E669;
+					};
+				};
+			};
+			buildConfigurationList = 265DD4222C359AC20043E669 /* Build configuration list for PBXProject "JingerWork" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 265DD41E2C359AC20043E669;
+			productRefGroup = 265DD4282C359AC20043E669 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				265DD4262C359AC20043E669 /* JingerWork */,
+				265DD4392C359AC40043E669 /* JingerWorkTests */,
+				265DD4432C359AC40043E669 /* JingerWorkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		265DD4252C359AC20043E669 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				265DD4342C359AC40043E669 /* Preview Assets.xcassets in Resources */,
+				265DD4312C359AC40043E669 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		265DD4382C359AC40043E669 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		265DD4422C359AC40043E669 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		265DD4232C359AC20043E669 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				265DD42D2C359AC20043E669 /* ContentView.swift in Sources */,
+				265DD42F2C359AC20043E669 /* Item.swift in Sources */,
+				265DD42B2C359AC20043E669 /* JingerWorkApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		265DD4362C359AC40043E669 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				265DD43F2C359AC40043E669 /* JingerWorkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		265DD4402C359AC40043E669 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				265DD44B2C359AC40043E669 /* JingerWorkUITestsLaunchTests.swift in Sources */,
+				265DD4492C359AC40043E669 /* JingerWorkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		265DD43C2C359AC40043E669 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 265DD4262C359AC20043E669 /* JingerWork */;
+			targetProxy = 265DD43B2C359AC40043E669 /* PBXContainerItemProxy */;
+		};
+		265DD4462C359AC40043E669 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 265DD4262C359AC20043E669 /* JingerWork */;
+			targetProxy = 265DD4452C359AC40043E669 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		265DD44C2C359AC40043E669 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		265DD44D2C359AC40043E669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		265DD44F2C359AC40043E669 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = JingerWork/JingerWork.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JingerWork/Preview Content\"";
+				DEVELOPMENT_TEAM = 7QV84579NH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.flow.JingerWork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		265DD4502C359AC40043E669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = JingerWork/JingerWork.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JingerWork/Preview Content\"";
+				DEVELOPMENT_TEAM = 7QV84579NH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.flow.JingerWork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		265DD4522C359AC40043E669 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7QV84579NH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.flow.JingerWorkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JingerWork.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JingerWork";
+			};
+			name = Debug;
+		};
+		265DD4532C359AC40043E669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7QV84579NH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.flow.JingerWorkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JingerWork.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JingerWork";
+			};
+			name = Release;
+		};
+		265DD4552C359AC40043E669 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7QV84579NH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.flow.JingerWorkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = JingerWork;
+			};
+			name = Debug;
+		};
+		265DD4562C359AC40043E669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7QV84579NH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.flow.JingerWorkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = JingerWork;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		265DD4222C359AC20043E669 /* Build configuration list for PBXProject "JingerWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				265DD44C2C359AC40043E669 /* Debug */,
+				265DD44D2C359AC40043E669 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		265DD44E2C359AC40043E669 /* Build configuration list for PBXNativeTarget "JingerWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				265DD44F2C359AC40043E669 /* Debug */,
+				265DD4502C359AC40043E669 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		265DD4512C359AC40043E669 /* Build configuration list for PBXNativeTarget "JingerWorkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				265DD4522C359AC40043E669 /* Debug */,
+				265DD4532C359AC40043E669 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		265DD4542C359AC40043E669 /* Build configuration list for PBXNativeTarget "JingerWorkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				265DD4552C359AC40043E669 /* Debug */,
+				265DD4562C359AC40043E669 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 265DD41F2C359AC20043E669 /* Project object */;
+}
